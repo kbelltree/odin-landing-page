@@ -62,7 +62,8 @@ button {
     border: none;
     border-radius: 8px;
     color: #F9FAF8; 
-    padding: 8px 24px;
+    padding: 10px 30px;
+    font-size: 18px;
     font-weight: 600;
 }
 
@@ -92,7 +93,7 @@ button.inverted {
 .heading {
     display: flex;   
     flex-direction: row; 
-    padding: 0 100px; 
+    padding: 0 120px; 
     justify-content: space-between;
     align-items: center; 
 }
@@ -105,15 +106,30 @@ ul {
     padding: 0;
 
 }
-
-/*
 .hero {
     display: flex; 
+    padding: 40px 120px 96px 120px;
+    gap: 48px;
+}
+
+.intro {
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.main-text, 
+.secondary-text {
+    margin: 0;
+}
+
+.hero button {
+    margin: 12px 0;
 }
 
 
 .container {
     display: flex; 
     justify-content: center;
-    
-}  */
+
+}
