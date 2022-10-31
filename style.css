@@ -53,10 +53,6 @@ footer {
     font-size: 36px;
 }
 
-ul {
-    list-style-type: none;
-}
-
 a {
     text-decoration: none;
 }
@@ -93,3 +89,31 @@ button.inverted {
     border-radius: 4px;
 } 
 
+.heading {
+    display: flex;   
+    flex-direction: row; 
+    padding: 0 100px; 
+    justify-content: space-between;
+    align-items: center; 
+}
+
+ul {
+    list-style-type: none;
+    display: flex; 
+    gap: 24px; 
+    margin: 0; 
+    padding: 0;
+
+}
+
+/*
+.hero {
+    display: flex; 
+}
+
+
+.container {
+    display: flex; 
+    justify-content: center;
+    
+}  */
