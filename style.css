@@ -87,7 +87,9 @@ button.inverted {
 
 .image-frame {
     border: 2px solid #3882F6;
-    border-radius: 4px;
+    border-radius: 16px;
+    width: 152px;
+    height: 152px;  
 } 
 
 .heading {
@@ -127,9 +129,24 @@ ul {
     margin: 12px 0;
 }
 
+.placeholder {
+    width: 50%;
+}
 
 .container {
     display: flex; 
+    gap: 48px; 
     justify-content: center;
-
+    padding-bottom: 84px;
 }
+
+.info {
+    max-width: 152px;
+    text-align: center;
+}
+
+.info-header {
+    margin: 36px 0;
+}
+
+
