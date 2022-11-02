@@ -51,6 +51,7 @@ footer {
 .quote-text {
     font-style: italic;
     font-size: 36px;
+    margin-top: 0;
 }
 
 a {
@@ -110,7 +111,7 @@ ul {
 }
 .hero {
     display: flex; 
-    padding: 40px 120px 96px 120px;
+    padding: 72px 120px 114px 120px;
     gap: 48px;
 }
 
@@ -149,4 +150,18 @@ ul {
     margin: 36px 0;
 }
 
+.gray-background p {
+    margin: 0;
+}
 
+.gray-background {
+    display: flex; 
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 108px 152px; 
+}
+
+.gray-background .emphasized-text {
+   align-self: flex-end; 
+   padding-right: 36px; 
+}
