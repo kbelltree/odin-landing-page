@@ -150,7 +150,8 @@ ul {
     margin: 36px 0;
 }
 
-.gray-background p {
+.gray-background p,
+.blue-background p {
     margin: 0;
 }
 
@@ -164,4 +165,30 @@ ul {
 .gray-background .emphasized-text {
    align-self: flex-end; 
    padding-right: 36px; 
+}
+
+.bottom {
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+}
+
+.blue-background {
+    border-radius: 6px;
+    margin: 100px 152px;
+    gap: 108px; 
+    padding: 40px 108px;  
+    display: flex; 
+    align-items: center; 
+}     
+
+main {
+    flex: 1; 
+}
+
+footer {
+    height: 100px; 
+    display: flex; 
+    justify-content: center;
+    align-items: center;
 }
