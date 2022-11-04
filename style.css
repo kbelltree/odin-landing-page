@@ -127,6 +127,7 @@ ul {
 }
 
 .hero button {
+    align-self: flex-start;
     margin: 12px 0;
 }
 
