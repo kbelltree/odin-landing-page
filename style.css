@@ -11,13 +11,8 @@ footer {
     background-color: #1F2937;
 }
 
-.gray-background {
-    background-color: #E5E7EB;
-}
+ 
 
-.blue-background {
-    background-color: #3882F6;
-}
 
 .white {
     color: #F9FAF8;
@@ -73,10 +68,6 @@ button.inverted {
     padding: 4px 24px;
 }
 
-.placeholder {
-    background-color: #8a8f98;
-}
-
 .placeholder img, 
 .image-frame img {
     /* keep the image in the original aspect ratio in the box */
@@ -119,6 +110,7 @@ ul {
     width: 50%;
     display: flex;
     flex-wrap: wrap;
+    min-width: 200px;
 }
 
 .main-text, 
@@ -132,6 +124,7 @@ ul {
 }
 
 .placeholder {
+    background-color: #8a8f98;
     width: 50%;
 }
 
@@ -157,6 +150,7 @@ ul {
 }
 
 .gray-background {
+    background-color: #E5E7EB;
     display: flex; 
     flex-direction: column;
     flex-wrap: wrap;
@@ -175,6 +169,7 @@ ul {
 }
 
 .blue-background {
+    background-color: #3882F6;
     border-radius: 6px;
     margin: 100px 152px;
     gap: 108px; 
