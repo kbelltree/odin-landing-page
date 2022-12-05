@@ -4,7 +4,7 @@
 
 **Summary**
 
-On this project, I built a landing page based on a design provided from [The Odin Project](https://www.theodinproject.com) shown below. I utilized the HTML, CSS, Chrome DevTools skills acquired through the course, as well as the methods learned from online search. The project details can be found [here](https://www.theodinproject.com/lessons/foundations-landing-page). 
+In this project, I built a landing page based on a design provided from [The Odin Project](https://www.theodinproject.com) shown below. I utilized the HTML, CSS, Chrome DevTools skills acquired through the course, as well as the methods learned from online search. The project details can be found [here](https://www.theodinproject.com/lessons/foundations-landing-page). 
 
 The major challenges I encountered in the project: 
  * Building layouts using Flexbox
